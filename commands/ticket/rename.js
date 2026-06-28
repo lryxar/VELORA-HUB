@@ -1,0 +1,1 @@
+module.exports = { name: 'rename', description: 'Rename ticket.', async execute(message, args) { if (!args[0]) return message.reply('Provide a name.'); await message.channel.setName(args.join('-').toLowerCase()); return message.reply('Ticket renamed.'); } };

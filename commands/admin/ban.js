@@ -1,0 +1,1 @@
+module.exports = { name: 'ban', description: 'Ban a member.', async execute(message, args) { const member = message.mentions.members.first(); if (!member) return message.reply('Mention a member.'); await member.ban({ reason: args.slice(1).join(' ') || undefined }); return message.reply('Member banned.'); } };
