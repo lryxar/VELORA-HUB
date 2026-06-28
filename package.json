@@ -1,0 +1,14 @@
+{
+  "name": "velora-hub",
+  "version": "0.2.0",
+  "description": "Lightweight configurable Discord bot for VELORA HUB.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "discord.js": "^14.15.3" },
+  "license": "MIT"
+}

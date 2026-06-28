@@ -1,0 +1,1 @@
+module.exports = { category: 'الإدارة', usage: 'untimeout', name: 'untimeout', description: 'Remove timeout.', async execute(message) { const member = message.mentions.members.first(); if (!member) return message.reply('Mention a member.'); await member.timeout(null); return message.reply('Timeout removed.'); } };

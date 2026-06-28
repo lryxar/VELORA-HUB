@@ -1,0 +1,20 @@
+{
+  "support": {
+    "enabled": true,
+    "categoryId": "",
+    "staffRoleId": "",
+    "logChannelId": "",
+    "nameFormat": "support-{number}",
+    "welcomeMessage": "Welcome {user}, support staff will help you soon.",
+    "panel": { "title": "Support", "description": "Open a support ticket.", "buttonLabel": "Support", "buttonEmoji": "🎫", "buttonStyle": "Primary" }
+  },
+  "purchase": {
+    "enabled": true,
+    "categoryId": "",
+    "staffRoleId": "",
+    "logChannelId": "",
+    "nameFormat": "purchase-{number}",
+    "welcomeMessage": "Welcome {user}, purchase staff will help you soon.",
+    "panel": { "title": "Purchase", "description": "Open a purchase ticket.", "buttonLabel": "Purchase", "buttonEmoji": "🛒", "buttonStyle": "Success" }
+  }
+}

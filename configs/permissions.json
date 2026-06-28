@@ -1,0 +1,173 @@
+{
+  "defaults": {
+    "administratorBypass": true,
+    "ownerBypass": true,
+    "developerIds": []
+  },
+  "commands": {
+    "kick": {
+      "administrator": true,
+      "roles": []
+    },
+    "ban": {
+      "administrator": true,
+      "roles": []
+    },
+    "unban": {
+      "administrator": true,
+      "roles": []
+    },
+    "timeout": {
+      "administrator": true,
+      "roles": []
+    },
+    "untimeout": {
+      "administrator": true,
+      "roles": []
+    },
+    "warn": {
+      "administrator": true,
+      "roles": []
+    },
+    "warnings": {
+      "administrator": true,
+      "roles": []
+    },
+    "clearwarns": {
+      "administrator": true,
+      "roles": []
+    },
+    "lock": {
+      "administrator": true,
+      "roles": []
+    },
+    "unlock": {
+      "administrator": true,
+      "roles": []
+    },
+    "clear": {
+      "administrator": true,
+      "roles": []
+    },
+    "addrole": {
+      "administrator": true,
+      "roles": []
+    },
+    "removerole": {
+      "administrator": true,
+      "roles": []
+    },
+    "nickname": {
+      "administrator": true,
+      "roles": []
+    },
+    "points": {
+      "administrator": true,
+      "roles": []
+    },
+    "leaderboard": {
+      "administrator": true,
+      "roles": []
+    },
+    "say": {
+      "administrator": true,
+      "roles": []
+    },
+    "embed": {
+      "administrator": true,
+      "roles": []
+    },
+    "dm": {
+      "administrator": true,
+      "roles": []
+    },
+    "ping": {
+      "administrator": false,
+      "roles": []
+    },
+    "userinfo": {
+      "administrator": false,
+      "roles": []
+    },
+    "serverinfo": {
+      "administrator": false,
+      "roles": []
+    },
+    "avatar": {
+      "administrator": false,
+      "roles": []
+    },
+    "close": {
+      "administrator": false,
+      "roles": []
+    },
+    "rename": {
+      "administrator": false,
+      "roles": []
+    },
+    "add": {
+      "administrator": false,
+      "roles": []
+    },
+    "remove": {
+      "administrator": false,
+      "roles": []
+    },
+    "claim": {
+      "administrator": false,
+      "roles": []
+    },
+    "unclaim": {
+      "administrator": false,
+      "roles": []
+    },
+    "delete": {
+      "administrator": false,
+      "roles": []
+    },
+    "transcript": {
+      "administrator": false,
+      "roles": []
+    },
+    "priority": {
+      "administrator": false,
+      "roles": []
+    },
+    "move": {
+      "administrator": false,
+      "roles": []
+    },
+    "panel": {
+      "administrator": true,
+      "roles": []
+    },
+    "info": {
+      "administrator": false,
+      "roles": []
+    },
+    "members": {
+      "administrator": false,
+      "roles": []
+    },
+    "set": {
+      "administrator": true,
+      "roles": []
+    },
+    "ticket": {
+      "administrator": true,
+      "roles": []
+    },
+    "protection": {
+      "administrator": true,
+      "roles": []
+    },
+    "system": {
+      "administrator": true,
+      "roles": []
+    },
+    "help": {
+      "administrator": false,
+      "roles": []
+    }
+  }
+}

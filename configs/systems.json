@@ -1,0 +1,8 @@
+{
+  "welcome": { "enabled": true, "channelId": "", "protectionLevel": "medium" },
+  "suggestions": { "enabled": true, "channelId": "" },
+  "reviews": { "enabled": true, "channelId": "" },
+  "tax": { "enabled": true, "channelId": "" },
+  "protection": { "enabled": true, "level": "medium", "antiSpam": true, "antiRaid": true, "antiLink": false },
+  "logs": { "enabled": true, "defaultChannelId": "", "ticketChannelId": "" }
+}

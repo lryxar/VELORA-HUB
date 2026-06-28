@@ -1,0 +1,1 @@
+module.exports = { category: 'التذاكر', usage: 'remove', name: 'remove', description: 'Remove member from ticket.', async execute(message) { const member = message.mentions.members.first(); if (!member) return message.reply('Mention a member.'); await message.channel.permissionOverwrites.delete(member.id); return message.reply('Member removed.'); } };
