@@ -1,0 +1,1 @@
+module.exports = { name: 'avatar', description: 'Show avatar.', execute: (message) => { const user = message.mentions.users.first() || message.author; return message.reply(user.displayAvatarURL({ size: 1024 })); } };

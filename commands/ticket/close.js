@@ -1,0 +1,1 @@
+module.exports = { name: 'close', description: 'Close ticket.', async execute(message) { await message.channel.permissionOverwrites.edit(message.author.id, { SendMessages: false }); return message.reply('Ticket closed.'); } };

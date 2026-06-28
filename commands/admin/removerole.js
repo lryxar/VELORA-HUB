@@ -1,0 +1,1 @@
+module.exports = { name: 'removerole', description: 'Remove role.', async execute(message) { const member = message.mentions.members.first(); const role = message.mentions.roles.first(); if (!member || !role) return message.reply('Mention member and role.'); await member.roles.remove(role); return message.reply('Role removed.'); } };

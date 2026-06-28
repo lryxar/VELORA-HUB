@@ -1,0 +1,5 @@
+{
+  "token": "PUT_YOUR_BOT_TOKEN_HERE",
+  "prefixes": { "admin": "!", "ticket": "+" },
+  "presence": { "enabled": true, "activity": "VELORA HUB" }
+}

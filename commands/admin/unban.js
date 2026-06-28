@@ -1,0 +1,1 @@
+module.exports = { name: 'unban', description: 'Unban a user ID.', async execute(message, args) { if (!args[0]) return message.reply('Provide user ID.'); await message.guild.members.unban(args[0]); return message.reply('User unbanned.'); } };

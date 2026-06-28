@@ -1,0 +1,1 @@
+module.exports = { name: 'unlock', description: 'Unlock channel.', async execute(message) { await message.channel.permissionOverwrites.edit(message.guild.id, { SendMessages: null }); return message.reply('Channel unlocked.'); } };

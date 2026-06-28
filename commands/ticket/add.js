@@ -1,0 +1,1 @@
+module.exports = { name: 'add', description: 'Add member to ticket.', async execute(message) { const member = message.mentions.members.first(); if (!member) return message.reply('Mention a member.'); await message.channel.permissionOverwrites.edit(member.id, { ViewChannel: true, SendMessages: true }); return message.reply('Member added.'); } };
