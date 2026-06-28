@@ -1,0 +1,1 @@
+module.exports = { category: 'الإدارة', usage: 'kick', name: 'kick', description: 'Kick a member.', async execute(message, args) { const member = message.mentions.members.first(); if (!member) return message.reply('Mention a member.'); await member.kick(args.slice(1).join(' ') || undefined); return message.reply('Member kicked.'); } };

@@ -1,0 +1,10 @@
+{
+  "locale": "ar",
+  "direction": "rtl",
+  "noPermission": "ليس لديك صلاحية لاستخدام هذا الأمر.",
+  "unknownCommand": "الأمر غير معروف.",
+  "saved": "✅ تم الحفظ بنجاح.",
+  "invalidUsage": "الاستخدام غير صحيح.",
+  "helpTitle": "قائمة أوامر VELORA HUB",
+  "helpFooter": "كل شيء قابل للتعديل من ملفات JSON وأوامر التخصيص التي تبدأ بـ $"
+}

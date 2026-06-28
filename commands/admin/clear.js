@@ -1,0 +1,1 @@
+module.exports = { category: 'الإدارة', usage: 'clear', name: 'clear', description: 'Bulk delete messages.', async execute(message, args) { const amount = Math.min(Math.max(Number(args[0]) || 1, 1), 100); const deleted = await message.channel.bulkDelete(amount, true); return message.channel.send(`Deleted ${deleted.size} messages.`); } };

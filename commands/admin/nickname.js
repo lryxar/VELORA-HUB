@@ -1,0 +1,1 @@
+module.exports = { category: 'الإدارة', usage: 'nickname', name: 'nickname', description: 'Change nickname.', async execute(message, args) { const member = message.mentions.members.first(); if (!member) return message.reply('Mention a member.'); await member.setNickname(args.slice(1).join(' ') || null); return message.reply('Nickname updated.'); } };

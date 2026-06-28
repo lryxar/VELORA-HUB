@@ -1,0 +1,1 @@
+module.exports = { category: 'الإدارة', usage: 'say', name: 'say', description: 'Repeat a message.', execute: async (message, args) => { const text = args.join(' '); if (!text) return message.reply('Write a message.'); await message.delete().catch(() => {}); return message.channel.send(text); } };

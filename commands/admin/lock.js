@@ -1,0 +1,1 @@
+module.exports = { category: 'الإدارة', usage: 'lock', name: 'lock', description: 'Lock channel.', async execute(message) { await message.channel.permissionOverwrites.edit(message.guild.id, { SendMessages: false }); return message.reply('Channel locked.'); } };
